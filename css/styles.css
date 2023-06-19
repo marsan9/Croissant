@@ -4,4 +4,20 @@ body {
     rgb(255, 246, 236) 39.5%,
     rgba(100, 46, 122, 0.23) 100.2%
   );
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navigation-links {
+  display: flex;
+  justify-content: center;
+}
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(190, 143, 14);
+  background: rgb(245, 231, 176);
+}
+img {
+  object-fit: cover;
 }
